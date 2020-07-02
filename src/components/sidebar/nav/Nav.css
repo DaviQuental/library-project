@@ -1,0 +1,38 @@
+.nav-sidebar-box {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.nav-sidebar-box button{
+    width: 85%;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 1rem;
+    background-color: #FFFFFF;
+    border-left: 1px solid #FFFFFF;
+}
+
+.nav-sidebar-box button > span {
+    margin-right: 10px;
+    color: #8844ee;
+}
+
+.nav-sidebar-box button:hover {
+    box-sizing: content-box;
+    background-color: whitesmoke;
+    border-color: #8844ee;
+    cursor: pointer;
+}
+
+.register-title-box {
+    width: 85%;
+    text-align: center;
+    margin: 0 auto;
+    border-top: 1px solid #dfdddd;
+}
+
+.register-title-box h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

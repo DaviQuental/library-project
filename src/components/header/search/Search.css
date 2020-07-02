@@ -1,0 +1,19 @@
+.form-search-box {
+    margin-left: 20px;
+    border: 1px solid #dfdddd;
+    border-radius: 15px;
+}
+
+#form-search {
+    padding: 10px;
+}
+
+#form-search label {
+    color: #FFFFFF;
+    margin-right: 10px;
+}
+
+#input-search {
+    color: #FFFFFF;
+    background: none;
+}

@@ -1,0 +1,13 @@
+.header-site {
+    display: flex;
+    align-items: center;
+    grid-area: header;
+    background: linear-gradient(135deg, #8844ee, #B07DFB);
+}
+
+.nav-header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

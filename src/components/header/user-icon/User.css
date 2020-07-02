@@ -1,0 +1,19 @@
+.user-box {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.user-box > span {
+    margin-right: 15px;
+    font-size: 2rem;
+    color: white;
+}
+
+.user-box > span:hover, .user-box > p:hover {
+    cursor: pointer;
+}
+
+.user-box > p {
+    color: #FFFFFF;
+}
