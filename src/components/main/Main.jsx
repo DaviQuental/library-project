@@ -3,6 +3,8 @@ import React from 'react';
 import Welcome from './welcome/Welcome'
 import Inicio from './inicio/Inicio'
 import Livros from './livros/Livros'
+import Button from '../buttons/Button'
+import Modal from '../modal/Modal'
 import './Main.css'
 
 
@@ -20,7 +22,7 @@ export default (props) => {
     }
     else if(props.content === 2){
         title = "Livros"
-        content = <Livros />
+        content = <Livros buttonEdit={props.buttonEdit}/>
     }
 
     return(

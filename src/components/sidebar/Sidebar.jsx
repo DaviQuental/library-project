@@ -9,7 +9,7 @@ export default (props) => {
     return(
         <aside className="sidebar-site">
             <Logo buttonBemVindo = {props.button0}/>
-            <Nav buttonInicio={props.button1} buttonLivro={props.button2}/>
+            <Nav buttonInicio={props.button1} buttonLivro={props.button2} buttonCadastrar={props.button3}/>
         </aside>
     );
 }

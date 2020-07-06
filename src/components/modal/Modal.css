@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700;900&display=swap');
+
+/* MODAL OVERLAY */
+.modal-register-overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(45, 52, 54,0.8);
+    transition: 0.3s;
+}
+
+/*MODAL REGISTER*/
+
+.modal-register {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 70vw;
+    height: 70vh;
+    font-family: 'Raleway', sans-serif;
+    background-color: #FFFFFF;
+}
+
+/*MODAL LOGO*/
+
+.modal-logo{
+    padding: 10%;
+    background: linear-gradient(135deg, #8844ee, #B07DFB);
+    color: #FFFFFF;
+}
+
+.first-title {
+    font-size: 40px;
+}
+
+.second-title {
+    font-size: 50px;
+}
+
+/* CLOSE BUTTON */
+
+.close-button {
+    text-align: right;
+}
+
+.close-button > button {
+    font-size: 20px;
+    padding: 5px 10px ;
+    background: none;
+    margin-top: 5px;
+    margin-right: 7px;
+}
+
+.close-button > button:hover {
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 20px;
+}
+
+/* MODAL TITLE REGISTER */
+
+.title-register-box {
+    margin-bottom: 10%;
+}
+
+.modal-register-box {
+    padding-top: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+/* MODAL FORM BOX */
+
+.modal-form-box {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 5%;
+}
+
+.modal-form-box label {
+    font-size: 12px;
+    font-variant: small-caps;
+}
+
+.modal-form-box input{
+    border-top: 1px solid rgba(0,0,0,0.5);
+    padding-top: 4px;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.modal-form-box input:focus{
+    transition: 0.2s;
+    border-color: #82589F;
+}
+
+.modal-form-box input:focus + label {
+    color: #7021e7;
+}
+
+/* SUBMIT BUTTON */
+
+.button-submit {
+    text-align: right;
+}
+
+.button-submit button{
+    padding: 10px;
+    font-size: 13px;
+    border-radius: 15px;
+    background-color: #dfe6e9;
+}
+
+.button-submit button:hover {
+    cursor: pointer;
+    background-color: #a29bfe;
+    color: #FFFFFF;
+}

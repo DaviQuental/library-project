@@ -5,20 +5,20 @@ import registered from '../../../data/registered-books'
 
 export default () => {
 
-    const books = registered.map((book) => {
+    const allBooks = registered.map((book) => {
         return(
             <div className="card" key={book.id}>
-                <div className="card-name">{book.bookName}</div>
-                <div className="card-publishingCompany">
-                    <h3>Editora</h3>
+                <div className="book-name"><h2>{book.bookName}</h2></div>
+                <div className="publishing-company">
+                    <h2>Editora</h2>
                     <p>{book.publishingCompany}</p>
                 </div>
-                <div className="card-gender">
-                    <h3>Genero</h3>
+                <div className="gender">
+                    <h2>Genero</h2>
                     <p>{book.gender}</p>
                 </div>
                 <div className="pages">
-                    <h3>Páginas</h3>
+                    <h2>Páginas</h2>
                     <p>{book.pages}</p>
                 </div>
             </div>
@@ -27,7 +27,7 @@ export default () => {
 
     return(
         <div className="cards">
-            {books}
+            {allBooks}
         </div>
     );
 }

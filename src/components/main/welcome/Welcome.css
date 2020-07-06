@@ -1,0 +1,58 @@
+.welcome-box {
+    text-align: center;
+}
+
+.figure-welcome {
+    margin: 20px 0;
+}
+
+.figure-welcome img{
+    border-radius: 50%;
+    border: 3px solid #a29bfe;
+    min-width: 235px;
+    max-width: 250px;
+}
+
+.figure-welcome figcaption {
+    margin-top: 5px;
+    font-size: 1.5rem;
+}
+
+.content-welcome {
+    font-size: 1.15rem;
+    line-height: 1.6rem;
+}
+
+.content-welcome a {
+    color: #0984e3;
+}
+
+
+.social-medias-welcome span{
+    font-size: 2.5rem;
+    margin-top: 3%;
+    color: #636e72;
+    transition: 0.3s;
+}
+
+.social-medias-welcome > a {
+    border-bottom: 2px solid #6c5ce7;
+    margin: 0 20px;
+    padding: 5px 10px;
+}
+
+.fa-linkedin:hover {
+    color: #0e76a8;
+}
+
+.fa-github-square:hover {
+    color: #000000;
+}
+
+.fa-facebook-square:hover{
+    color : #3b5998;
+}
+
+.fa-instagram-square:hover{
+    color: #e1306c;
+}

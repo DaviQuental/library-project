@@ -1,3 +1,132 @@
 .main-site {
     grid-area: main;
 }
+
+.title-main {
+    width: 15vw;
+    margin: 0 auto;
+    margin-top: 2%;
+    text-align: center;
+    border-bottom: 1px solid #6c5ce7;
+}
+
+.content-main {
+    margin: 20px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+.card {
+    max-width: 225px;
+    min-width: 225px;
+    text-align: center;
+    padding: 15px;
+    background-color: #F5F5F5;
+    border-radius: 15px;
+    /* box-shadow:  3px 3px 0px rgba(44,44,44,0.15); */
+}
+
+.card:hover {
+    box-shadow:  3px 3px 0px rgba(44,44,44,0.15);
+}
+
+.book-name {
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    border-bottom: 1px solid #7021e7;
+}
+
+.book-name > h2 {
+    font-size: 22px;
+}
+
+.publishing-company {
+    margin-bottom: 3%;
+}
+
+.gender {
+    margin-bottom: 3%;
+}
+
+.pages {
+    margin-bottom: 3%;
+}
+
+.edit-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 6vh;
+    margin: 0 auto;
+    border: 1px solid #7021e7;
+    border-radius: 5px;
+}
+
+.edit-box > button{
+    background: none;
+    font-size: 25px;
+    padding: 5px;
+    margin: 0 10%;
+}
+
+#edit-button:hover {
+    color: #74b9ff;
+    cursor: pointer;
+}
+
+#delete-button:hover {
+    color: #d63031;
+    cursor: pointer;
+}
+
+/* CONFIRM DELETE BUTTON */
+
+.confirm-delete-button {
+    position: relative;
+    display: flex;
+    height: 0;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    z-index: 1;
+    transition: 0.3s;
+}
+
+.confirm-delete-button button{
+    color: #FFFFFF;
+    min-width: 45%;
+    max-width: 45%;
+    padding: 8px;
+    margin: 0 2%;
+    background-color: #a29bfe;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+#confirm-delete-button {
+    background-color: #e74c3c;
+}
+
+#back-delete-button {
+    background-color: #74b9ff;
+}
+
+#confirm-delete-button:hover {
+    
+    background-color: #c0392b;
+}
+
+#back-delete-button:hover {
+    background-color: #0984e3;
+}
+
+.confirm-delete-button button:hover {
+    cursor: pointer;
+}

@@ -9,12 +9,17 @@
   --color-light-gray: #dfdddd;
 }
 
+/*REMOVE DEFAULT BROWSER SHADOW/BORDER ON INPUT FOCUS*/
+textarea:focus, input:focus, select:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+} 
+
 body > #root > div {
   height: 100vh;
 }
 
 * {
-  font-family: 'Nunito', sans-serif;
   margin: 0;
   padding: 0;
   border: none;
@@ -23,12 +28,13 @@ body > #root > div {
 }
 
 /* WRAPPER */
-
 .wrapper {
-    display: grid;
+  font-family: 'Nunito', sans-serif;
+  display: grid;
     grid-template-columns: 0.20fr 1fr;
     grid-template-rows: 0.20fr 1fr;
     grid-template-areas: 
     "sidebar header"
     "sidebar main";
 }
+

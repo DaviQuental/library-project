@@ -20,7 +20,7 @@ export default (props) => {
             </div>
             <div className="register-selection-box">
                 <ul className="register-list">
-                    <li><button className="button-cadastrar-livro"><span className="fas fa-plus"></span> Cadastrar livro</button></li>
+                    <li>{props.buttonCadastrar}</li>
                 </ul>
             </div>
 
