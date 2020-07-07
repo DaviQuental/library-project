@@ -20,7 +20,9 @@
 
 .content-welcome {
     font-size: 1.15rem;
+    text-align: justify;
     line-height: 1.6rem;
+    margin: 20px;
 }
 
 .content-welcome a {

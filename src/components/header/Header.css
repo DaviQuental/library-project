@@ -15,7 +15,7 @@
     flex-wrap: wrap;
 }
 
-@media(max-width: 400px) {
+@media screen and (max-width: 400px) {
     .nav-header{
         flex-direction: column-reverse;
         justify-content: center;

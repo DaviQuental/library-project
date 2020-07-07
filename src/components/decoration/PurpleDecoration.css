@@ -1,0 +1,20 @@
+.purple-decoration::after {
+    display: inline-block;
+    position: relative;
+    bottom: 10px;
+    content: '';
+    transform: rotate(180deg);
+    border: 1px solid #6c5ce7;
+}
+
+.purple-decoration.small::after{
+    width: 80px;
+}
+
+.purple-decoration.medium::after {
+    width: 120px;
+}
+
+.purple-decoration.large::after{
+    width: 150px;
+}

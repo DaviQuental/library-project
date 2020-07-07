@@ -33,7 +33,7 @@ body > #root > div {
   font-family: 'Nunito', sans-serif;
 }
 
-@media(max-width: 700px){
+@media screen and (max-width: 700px){
   .wrapper{
     grid-template-columns: 1fr;
     grid-template-rows: 0.20fr 0.20fr 1fr;

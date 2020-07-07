@@ -4,6 +4,7 @@ import Welcome from './welcome/Welcome'
 import Inicio from './inicio/Inicio'
 import Livros from './livros/Livros'
 import './Main.css'
+import '../decoration/PurpleDecoration.css'
 
 
 export default (props) => {
@@ -25,7 +26,7 @@ export default (props) => {
 
     return(
         <main className="main-site">
-            <div className="title-main">
+            <div className="title-main purple-decoration small">
                 <h2>{title}</h2>
             </div>
 
