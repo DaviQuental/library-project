@@ -1,7 +1,8 @@
 .user-box {
     display: flex;
+    max-height: 30px;
     align-items: center;
-    margin-right: 20px;
+    margin: 20px;
 }
 
 .user-box > span {

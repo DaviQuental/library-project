@@ -18,7 +18,7 @@
 
 .modal-register {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
     width: 70vw;
     height: 70vh;
     font-family: 'Raleway', sans-serif;
@@ -119,4 +119,11 @@
     cursor: pointer;
     background-color: #a29bfe;
     color: #FFFFFF;
+}
+
+@media(max-width: 700px) {
+    .modal-register {
+        flex-direction: column;
+        justify-content: unset;
+    }
 }

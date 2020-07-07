@@ -1,4 +1,5 @@
 .form-search-box {
+    max-height: 30px;
     margin-left: 20px;
     border: 1px solid #dfdddd;
     border-radius: 15px;

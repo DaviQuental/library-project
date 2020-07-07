@@ -3,8 +3,6 @@ import React from 'react';
 import Welcome from './welcome/Welcome'
 import Inicio from './inicio/Inicio'
 import Livros from './livros/Livros'
-import Button from '../buttons/Button'
-import Modal from '../modal/Modal'
 import './Main.css'
 
 

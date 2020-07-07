@@ -1,25 +1,22 @@
 .nav-sidebar-box {
     width: 100%;
-    margin: 0 auto;
 }
 
 .nav-sidebar-box button{
-    width: 85%;
-    min-height: 40px;
-    margin-bottom: 10px;
+    min-width: 100%;
+    padding: 10px 5px;
     text-align: left;
-    font-size: 1rem;
+    font-size: 1.2rem;
     background-color: #FFFFFF;
     border-left: 1px solid #FFFFFF;
 }
 
 .nav-sidebar-box button > span {
-    margin: 10px;
+    margin-right: 3%;
     color: #8844ee;
 }
 
 .nav-sidebar-box button:hover {
-    box-sizing: content-box;
     background-color:#dfe6e9;
     border-color: #8844ee;
     cursor: pointer;
@@ -35,4 +32,27 @@
 .register-title-box h2 {
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+@media(max-width: 700px){
+    
+    .sidebar-site button{
+        font-size: 1rem;
+    }
+
+    .nav-sidebar-box button{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .nav-sidebar-box button > span {
+        margin-right: 0;
+    }
+
+    .nav-sidebar-box button:hover{
+        border-color: #dfe6e9;
+    }
 }

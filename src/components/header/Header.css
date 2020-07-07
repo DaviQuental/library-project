@@ -1,6 +1,6 @@
 .header-site {
     display: flex;
-    min-height: 80px;
+    min-height: 120px;
     align-items: center;
     grid-area: header;
     background: linear-gradient(135deg, #8844ee, #B07DFB);
@@ -9,6 +9,15 @@
 .nav-header {
     display: flex;
     width: 100%;
+    height: 100%;
     justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
+}
+
+@media(max-width: 400px) {
+    .nav-header{
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
 }

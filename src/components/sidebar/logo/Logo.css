@@ -1,9 +1,8 @@
 .logo-sidebar {
     width: 85%;
-    margin: 0 auto;
-    text-align: center;
+    margin: 10px auto;
     padding: 10px;
-    margin-bottom: 10px;
+    text-align: center;
     border-bottom: 1px solid #dfdddd;
 }
 
@@ -14,4 +13,8 @@
 
 .logo-sidebar span:hover {
     cursor: pointer;
+}
+
+button {
+    background: none;
 }
