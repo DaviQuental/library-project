@@ -1,7 +1,7 @@
 import React from 'react';
 
 import registered from '../../../data/registered-books'
-import '../../decoration/PurpleDecoration.css'
+// import '../../decoration/PurpleDecoration.css'
 
 
 export default () => {

@@ -1,0 +1,28 @@
+.text-decoration::after {
+    display: flex;
+    margin: auto;
+    position: relative;
+    content: '';
+    border: 1px solid;
+    transform: rotate(180deg);
+}
+
+.text-decoration.small::after{
+    width: 80px;
+}
+
+.text-decoration.medium::after {
+    width: 120px;
+}
+
+.text-decoration.large::after{
+    width: 225px;
+}
+
+.text-decoration.purple::after{
+    border-color: #7021e7;
+}
+
+.text-decoration.gray::after {
+    border-color: rgba(44,44,44,0.2);
+}

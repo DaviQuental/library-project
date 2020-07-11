@@ -5,7 +5,6 @@ import Sidebar from './components/sidebar/Sidebar'
 import Main from './components/main/Main'
 import Modal from './components/modal/Modal'
 import './App.css'
-
 export default () => {
 
     const [value, setValue] = useState(0);
