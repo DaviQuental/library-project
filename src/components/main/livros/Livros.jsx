@@ -28,15 +28,15 @@ export default (props) => {
                 </div>
                 <div className="edit-box">
                     {props.buttonEdit}
-                    <button onClick={() => {setIsVisibility('visible'); setValueBottom('3vh'); setValueOpacity(1);setValueWidth('10vw')}} id="delete-button"><span className="fas fa-trash"></span></button>
+                    <button onClick={() => {setIsVisibility('visible'); setValueBottom('3.5vh'); setValueOpacity(1);setValueWidth('10vw')}} id="delete-button"><span className="fas fa-trash"></span></button>
                 </div>
                 <div className="confirm-delete-button" style={{visibility: isVisible, position: 'relative', bottom: valueBottom, opacity: valueOpacity, width:  valueWidth}}>
                     <button id="confirm-delete-button"
                             onClick={() => {setIsVisibility('hidden'); setValueBottom('0'); setValueOpacity('0'); setValueWidth('0')}}
-                            >EXCLUIR</button>
+                            ><span className="fa fa-check"></span></button>
                     <button id="back-delete-button"
                             onClick={() => {setIsVisibility('hidden'); setValueBottom('0'); setValueOpacity('0');setValueWidth('0')}}
-                            >VOLTAR</button>
+                            ><span className="fa fa-undo"></span></button>
                 </div>
             </div>
         );

@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
 /*REMOVE DEFAULT BROWSER SHADOW/BORDER ON INPUT FOCUS*/
+*,*:focus,*:hover{
+  outline:none;
+}
 textarea:focus, input:focus, select:focus {
   box-shadow: 0 0 0 0;
-  outline: 0;
+  outline: none;
 } 
 
 body {
@@ -36,7 +39,7 @@ body > #root > div {
 @media screen and (max-width: 700px){
   .wrapper{
     grid-template-columns: 1fr;
-    grid-template-rows: 0.20fr 0.20fr 1fr;
+    grid-template-rows: 0.20fr auto 1fr;
     grid-template-areas:
     "header"
     "sidebar"

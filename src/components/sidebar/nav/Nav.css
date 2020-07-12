@@ -1,37 +1,51 @@
 .list-nav-sidebar {
+    display: flex;
+    flex-direction: column;
     overflow: hidden;
-    background-color: #7021e7;
 }
   
 .list-nav-sidebar li {
-    float: left;
     display: block;
-    text-align: center;
-    padding: 14px 16px;
+    float: left;
     text-decoration: none;
-    font-size: 17px;
+    text-align: center;
+    border-left: 2px solid transparent;
+}
+
+.list-nav-sidebar li:hover {
+    background-color: #dfe6e9;
+    border-color: #5f27cd;
 }
 
 .list-nav-sidebar li button {
     width: 100%;
-    text-align-last: left;
+    font-size: 1.2rem;
     background: none;
-    font-size: 1.6rem;
-    color: #f2f2f2;
+    padding: 15px;
+    color: black;
 }
 
-.list-nav-sidebar li button span {
-    color: black;
+.list-nav-sidebar li:not(:first-child) button{
+    text-align: left;
+}
+
+.list-nav-sidebar li:not(:first-child) button span {
+    color: #5f27cd;
+    margin-right: 3px;
+}
+
+.list-nav-sidebar li:first-child button span {
+    font-size: 2rem;
+    color: #FFF;
+}
+
+.list-nav-sidebar li:first-child button:hover + span {
+    color: #000;
 }
 
 .list-nav-sidebar li button:hover {
     cursor: pointer;
-}
-  
-.list-nav-sidebar li:hover {
-    background-color: #5f27cd;
-    color: black;
-}
+} 
   
 .list-nav-sidebar li.welcome {
     background-color: #5f27cd;
@@ -43,20 +57,44 @@
 }
   
 @media screen and (max-width: 700px) {
-    .list-nav-sidebar li:not(:first-child) {display: none;}
+    .list-nav-sidebar {
+        position: relative;
+        flex-direction: row;
+    }
+
+    .list-nav-sidebar li:first-child button span {
+        font-size: 1.2rem;
+    }
+
+    .list-nav-sidebar li:not(:first-child) {
+        display: none;
+    }
+
     .list-nav-sidebar li.menu {
-        float: right;
+        position: absolute;
+        right: 0;
         display: block;
+        background-color: #FFF;
+        border-color: transparent;
     }
 }
   
 @media screen and (max-width: 700px) {
-    .list-nav-sidebar.responsive {position: relative;}
+    .list-nav-sidebar.responsive {
+        position: relative;
+        flex-direction: column;
+    }
+
     .list-nav-sidebar.responsive .menu {
-      position: absolute;
-      right: 0;
-      top: 0;
-}
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .list-nav-sidebar.responsive .menu span{
+        color: #000;
+    }
+
     .list-nav-sidebar.responsive li {
       float: none;
       display: block;

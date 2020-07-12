@@ -61,7 +61,7 @@
     justify-content: center;
     align-items: center;
     width: 90%;
-    height: 6vh;
+    height: 7vh;
     margin: 0 auto;
     border: 1px solid #7021e7;
     border-radius: 5px;
@@ -99,10 +99,10 @@
 
 .confirm-delete-button button{
     color: #FFFFFF;
-    min-width: 45%;
-    max-width: 45%;
+    min-width: 70px;
+    min-height: 6.5vh;
     padding: 8px;
-    margin: 0 2%;
+    margin: 0 10px;
     background-color: #a29bfe;
     border-radius: 5px;
     transition: 0.5s;
