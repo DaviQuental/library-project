@@ -1,20 +1,24 @@
-## Library Project
+## 📚 Library Project
 
-    IN PROGRESS
-    That's a starter project ! I've been programming this project to learn React and improve my CSS/HTMl skills.
+- 🚧 IN PROGRESS !!!
+- That's a starter project ! I've been programming this project to learn React and improve my CSS/HTMl skills.
     
 
 
-## Technologies
-    NodeJS
-    ReactJS
-    React Hooks
-    CSS
+## 🚀 Technologies
+- NodeJS
+- ReactJS
+- React Hooks
+- CSS
 
-## Running The Application
+## ✂️ Clone Application
+- ```git clone https://github.com/DaviQuental/library-project```
+- ```cd library-project```
 
-    git clone https://github.com/DaviQuental/library-project
-    cd library-project
-    yarn install || npm install
-    yarn start || npm start
-    open http://localhost:3000/
+## ⚙️ Run Application with NPM
+- ```npm install```
+- ```npm start```
+
+## ⚙️ Run Application with YARN
+- ```yarn install```
+- ```yarn start```
