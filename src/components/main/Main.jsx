@@ -29,7 +29,7 @@ export default (props) => {
         <main className="main-site">
             <div className="title-main">
                 <Decoration>
-                    <h2 color='purple' size='small' className='teste'>{title}</h2>
+                    <h2 color='purple' size='small'>{title}</h2>
                 </Decoration>
             </div>
 
